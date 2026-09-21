@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "answer": {
+      "type": "string"
+    },
+    "source_documents": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "missing_information": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recommended_next_action": {
+      "type": "string"
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High"
+      ]
+    }
+  },
+  "required": [
+    "answer",
+    "source_documents",
+    "recommended_next_action"
+  ]
+}

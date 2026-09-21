@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "properties": {
+    "pr_id": {
+      "type": "string"
+    },
+    "is_complete": {
+      "type": "boolean"
+    },
+    "required_approval_level": {
+      "type": "string"
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "policy_violations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recommended_action": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "pr_id",
+    "is_complete",
+    "required_approval_level",
+    "recommended_action"
+  ]
+}

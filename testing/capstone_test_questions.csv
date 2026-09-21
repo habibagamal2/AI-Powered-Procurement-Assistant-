@@ -1,0 +1,13 @@
+Question_ID,Question,Expected_Source,Difficulty
+CAP-Q001,What documents are required to onboard a new vendor?,Vendor_Onboarding_Guide.pdf,Easy
+CAP-Q002,"What is the approval process for a purchase request above 100,000 AED?",Procurement_Policy.pdf; Purchase_Request_Guidelines.pdf,Easy
+CAP-Q003,Can a vendor be approved if the trade license is expired?,Procurement_Policy.pdf; Vendor_Onboarding_Guide.pdf,Medium
+CAP-Q004,Summarize ABC Technology Trading LLC vendor profile.,Company_Profile.pdf,Easy
+CAP-Q005,What information is missing from purchase request PR-2026-0005?,Sample_Purchase_Requests.csv,Medium
+CAP-Q006,"Does a purchase request for 80,000 AED require three quotations?",Purchase_Request_Guidelines.pdf,Easy
+CAP-Q007,What are the main compliance requirements in the supplier code of conduct?,Supplier_Code_of_Conduct.pdf,Easy
+CAP-Q008,Which fields should be extracted from the vendor trade license?,Vendor_Trade_License.pdf; schemas,Medium
+CAP-Q009,What should procurement do if budget code is missing?,Purchase_Request_Guidelines.pdf,Easy
+CAP-Q010,Validate whether PR-2026-0010 is ready for processing.,Sample_Purchase_Requests.csv; Purchase_Request_Guidelines.pdf,Hard
+CAP-Q011,Generate a short procurement officer summary for ABC Technology Trading LLC.,Vendor docs,Medium
+CAP-Q012,What risks should be considered before approving a vendor?,Procurement docs,Medium

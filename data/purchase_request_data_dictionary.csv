@@ -1,0 +1,16 @@
+Field,Description
+PR_ID,Purchase request identifier
+Requester,Employee requesting the purchase
+Department,Requesting department
+Category,Procurement category
+Amount_AED,Estimated amount in AED
+Supplier_Selected,Preferred/selected supplier if provided
+Vendor_ID,Vendor identifier if available
+Business_Justification,Business reason for the purchase
+Budget_Code,Budget or cost center code
+Required_By_Date,Requested delivery or availability date
+Approval_Level,Required approval level based on amount
+Quotes_Attached_Count,Number of quotations attached
+Status,Request status
+Missing_Info_Flag,Synthetic flag for missing required details
+Notes,Synthetic notes indicating missing details
